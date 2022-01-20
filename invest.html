@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset='UTF-8' />
+      <title>Investments</title>
+      <meta name="viewport" content="width=device-width,user-scalable=no" />
+      <link rel="icon" href="img/logo.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+      <link rel="stylesheet" type="text/css" href="fonts/icomoon/style.css" />
+      <link rel="stylesheet" type="text/css" href="fonts/stylesheet.css" />
+      <link rel='stylesheet' type='text/css' href='css/selectric.css' />
+      <link rel='stylesheet' type='text/css' href='css/jquery.mCustomScrollbar.css' />
+      <link rel='stylesheet' type='text/css' href='css/slick.css' />
+      <link rel='stylesheet' type='text/css' href='css/jquery.parallax.css'>
+      <link rel='stylesheet' type='text/css' href='css/style.css' />
+      <script type='text/javascript' src='js/jquery-3.6.0.min.js'></script>
+      <script type='text/javascript' src='js/detect.min.js'></script>
+      <script type='text/javascript' src='js/slick.min.js'></script>
+      <script type='text/javascript' src='js/jquery.selectric.min.js'></script>
+      <script type='text/javascript' src='js/jquery.mCustomScrollbar.js'></script>
+   </head>
+   <body>
+      <section class="wrapper">
+         <button class="menuBtn">
+         <span></span>
+         <span></span>
+         <span></span>
+         </button>
+         <div class="socialInvis">
+            <span class="txt">SOCIALS</span>
+            <div class="socialList">
+               <ul>
+                  <li><a href="mailto:support@.com"  title = "Support" target="_blank"><span class="iconBl icon-telegram"></span></a></li>
+                  <li><a href="index.html" title = "News" target="_blank"><span class="iconBl icon-telegram"></span></a></li>
+                  <li><a href="index.html" title = "Youtube" target="_blank"><span class="iconBl icon-youtube"></span></a></li>
+               </ul>
+            </div>
+         </div>
+         <header>
+            <div class="container">
+               <div class="lineTop">
+                  <div class="logo invisLink">
+                     <a href="index.html"></a>
+                     <img src="img/logo.png" alt="">
+                  </div>
+                  <div class="adressBl">
+                     <span class="iconBl icon-pin"></span>
+                     <span class="txt">26 Scrutton Street, London, <br /> England, EC2A 4RJ</span>
+                  </div>
+                  <div class="langBl">
+                     <div class="iconBl icon-globe"></div>
+                     <span class="txt">EN</span>
+                     <span class="iconArrow icon-arrow-down"></span>
+                     <ul class="listLinks">
+                        <li>
+                           <a href="invest.html">RU</a>
+                           <a href="invest.html">EN</a>                                        
+                        </li>
+                     </ul>
+                  </div>
+                  <a href="sign-in.php" class="btn btnGreen btnArrow"> <span class="iconBl icon-lock"></span> Login</a>
+               </div>
+               <div class="menuLine">
+                  <nav class="menu">
+                     <a href="index.html">Home</a>
+                     <a href="invest.html" class="active">Investments</a>
+                     <a href="about.html">About Us</a>
+                     <a href="mailto:support@.com">Contacts</a>
+                     <a href="sign-in.php" style="color: #ffc000">Sign up</a>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <section class="content">
+            <div class="grettingsPage">
+               <div class="container">
+                  <div class="wrapIn">
+                     <span class="nameCompany"> Finance </span>
+                     <h1 class="cap">Investments</h1>
+                  </div>
+               </div>
+            </div>
+            <div class="investPage">
+               <div class="investCalc">
+                  <div class="container">
+                     <div class="wrapIn">
+                        <div class="titleBl">
+                           <span class="iconBl icon-research2"></span>
+                           <h2 class="cap"><span class="smallTxt">Check out our </span> tariff plans
+                           </h2>
+                        </div>
+                        <div class="textBlock">
+                           <p>Select a tariff you are interested in. Investments are made around the clock using any of the available tariff plans. The investor receives a profit and the deposit itself in the currency of the investment and to the same payment details.</p>
+                           <span class="text">Our Investors Funds are protected by our Anti-loss system, Funds locked for release only in a case of failed trades!</span>
+                        </div>
+                        <div class="profitBlock">
+                           <div class="wrapIn">
+                              <div class="cabPlansCarouselWrapper">
+                                 <div class="cabPlansCarousel">
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>CANNABIS!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan1" name="Plan" value="1"   checked                    data-name="30 working days" 
+                                          data-percent="25"
+                                          data-term="70"
+                                          data-min="500" 
+                                          data-max="5000" 
+                                          data-minusd="500" 
+                                          data-maxusd="5000" 
+                                          data-minusdt="500" 
+                                          data-maxusdt="5000" 
+                                          data-minrub="5000" 
+                                          data-maxrub="900000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="25" 
+                                          data-maxxrp="100000">
+                                       <label class="depositContent" for="Plan1">
+                                          <span class="percent">3%%</span>
+                                          <span class="term">for 30 days</span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <p class="info">Max Repeats X8<br> accruals every day</p>
+                                          <div class="resultSum">
+                                             <div class="resultSumItem">
+                                              <!--  <span class="pre">Profit per day:</span>
+                                                <span class="sum">33.5</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">1005</span>-->
+                                             </div>
+                                          </div>
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>CRYPTOCURRENCY!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan2" name="Plan" value="2"                      data-name="30 working days" 
+                                          data-percent="44.7"
+                                          data-term="60"
+                                          data-min="5000" 
+                                          data-max="10000" 
+                                          data-minusd="5000" 
+                                          data-maxusd="10000" 
+                                          data-minusdt="5000" 
+                                          data-maxusdt="10000" 
+                                          data-minrub="600000" 
+                                          data-maxrub="7000000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="31000" 
+                                          data-maxxrp="900000">
+                                       <label class="depositContent" for="Plan2">
+                                          <span class="percent">5.2%</span>
+                                          <span class="term">for 30 days</span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <!--<p class="info">Max Repeats X9<br> accruals every day</p>
+                                          <div class="resultSum">
+                                             <div class="resultSumItem">
+                                                <span class="pre">Profit per day:</span>
+                                                <span class="sum">70</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">2100</span>-->
+                                             <!--</div>-->
+                                          <!--</div>-->
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>RETIREMENT AND INSURANCE!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan2" name="Plan" value="2"                      data-name="30 working days" 
+                                          data-percent="50"
+                                          data-term="60"
+                                          data-min="5000" 
+                                          data-max="10000" 
+                                          data-minusd="5000" 
+                                          data-maxusd="10000" 
+                                          data-minusdt="5000" 
+                                          data-maxusdt="10000" 
+                                          data-minrub="600000" 
+                                          data-maxrub="7000000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="31000" 
+                                          data-maxxrp="900000">
+                                       <label class="depositContent" for="Plan2">
+                                          <span class="percent">2.4%</span>
+                                          <span class="term">for 30 days</span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum">5000 usd to 10000 usd</span>
+                                          </div>
+                                          <p class="info">Max Repeats X9<br> accruals every day</p>
+                                          <div class="resultSum">
+                                           <!--  <div class="resultSumItem">
+                                                <span class="pre">Profit per day:</span>
+                                                <span class="sum">80</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">2400</span>
+                                             </div>-->
+                                          </div>
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>OIL AND GAS!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan3" name="Plan" value="3"                      data-name="in 70 working days" 
+                                          data-percent="75.1"
+                                          data-term="1"
+                                          data-min="10000" 
+                                          data-max="25000" 
+                                          data-minusd="10000" 
+                                          data-maxusd="25000" 
+                                          data-minusdt="10000" 
+                                          data-maxusdt="25000" 
+                                          data-minrub="7000" 
+                                          data-maxrub="500000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="270" 
+                                          data-maxxrp="50000">
+                                       <label class="depositContent" for="Plan2">
+                                          <span class="percent">2.6%</span>
+                                          <span class="term">for 30 days</span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <p class="info">Max Rpeat X12<br> accruals every day</p>
+                                          <div class="resultSum">
+                                             <div class="resultSumItem">
+                                                <span class="pre">Profit per day:</span>
+                                                <span class="sum">216</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">6500</span>
+                                             </div>
+                                          </div>
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>GOLD!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan3" name="Plan" value="3"                      data-name="in 70 working days" 
+                                          data-percent="27.5"
+                                          data-term="1"
+                                          data-min="25000" 
+                                          data-max="50000" 
+                                          data-minusd="25000" 
+                                          data-maxusd="50000" 
+                                          data-minusdt="25000" 
+                                          data-maxusdt="50000" 
+                                          data-minrub="7000" 
+                                          data-maxrub="500000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="270" 
+                                          data-maxxrp="50000">
+                                       <label class="depositContent" for="Plan3">
+                                          <span class="percent">7.5%</span>
+                                          <span class="term">in 30 days </span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <p class="info">Max Repeats X10<br> Cumulative accruals</p>
+                                          <div class="resultSum">
+                                             <div class="resultSumItem">
+                                             <!--   <span class="pre">Profit per day:</span>
+                                                <span class="sum">458</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">13750</span> -->
+                                             </div>
+                                          </div>
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>Agricuture!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan4" name="Plan" value="4" data-name="in 35 working days" 
+                                          data-percent="125.1"
+                                          data-term="1"
+                                          data-min="10000" 
+                                          data-max="25000" 
+                                          data-minusd="10000" 
+                                          data-maxusd="25000" 
+                                          data-minusdt="10000" 
+                                          data-maxusdt="25000" 
+                                          data-minrub="14000" 
+                                          data-maxrub="500000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="580" 
+                                          data-maxxrp="50000">
+                                       <label class="depositContent" for="Plan4">
+                                          <span class="percent">2.9%</span>
+                                          <span class="term">in 30 days &nbsp;<span style=" background-color: #FFFF00; border-radius: 5px;  padding: 3px; color: #FF0000; font-weight:bold ;font-size:16px ">TOP</span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <p class="info">Max Repeats X11<br> Cumulative accruals</p>
+                                          <div class="resultSum">
+                                            <!-- <div class="resultSumItem">
+                                                <span class="pre">Profit per day:</span>
+                                                <span class="sum">241</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">7250</span>
+                                             </div>-->
+                                          </div>
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>Real Estate!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan5" name="Plan" value="5" data-name="in 25 working days" 
+                                          data-percent="150.1"
+                                          data-term="1"
+                                          data-min="5000" 
+                                          data-max="100000" 
+                                          data-minusd="4000" 
+                                          data-maxusd="100000" 
+                                          data-minusdt="4000" 
+                                          data-maxusdt="50000" 
+                                          data-minrub="4000" 
+                                          data-maxrub="500000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="850" 
+                                          data-maxxrp="50000">
+                                       <label class="depositContent" for="Plan5">
+                                          <span class="percent">10.5%</span>
+                                          <span class="term">in 30 days &nbsp;<span style=" background-color: #FFFF00; border-radius: 5px;  padding: 3px; color: #FF0000; font-weight:bold ;font-size:16px ">BEST</span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <p class="info">Max Repeats X12<br> Cumulative accruals</p>
+                                          <div class="resultSum">
+                                             <!--<div class="resultSumItem">
+                                                <span class="pre">Profit per day:</span>
+                                                <span class="sum">1016</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">30506</span>
+                                             </div>-->
+                                          </div>
+                                       </label>
+                                    </div>
+                                    <div class="cabPlanItem">
+                                       <a href="#" target="_blank">
+                                          <p align="center" style=" background-color: #c94504; padding: 3px; color: #FFFF00; font-size:11px">
+                                             <u>Foreign Exchange!</u>
+                                          </p>
+                                       </a>
+                                       <input type="radio" id="Plan3" name="Plan" value="3" data-name="in 70 working days" 
+                                          data-percent="10.5"
+                                          data-term="1"
+                                          data-min="500" 
+                                          data-max="5000" 
+                                          data-minusd="500" 
+                                          data-maxusd="5000" 
+                                          data-minusdt="500" 
+                                          data-maxusdt="5000" 
+                                          data-minrub="7000" 
+                                          data-maxrub="500000" 
+                                          data-minbtc="0" 
+                                          data-maxbtc="0" 
+                                          data-mineth="0" 
+                                          data-maxeth="0" 
+                                          data-minxrp="270" 
+                                          data-maxxrp="50000">
+                                       <label class="depositContent" for="Plan3">
+                                          <span class="percent">3.1%</span>
+                                          <span class="term">in 30 days </span>
+                                          <div class="minMaxSum">
+                                             <span class="pre">Deposit amount:</span>
+                                             <span class="sum" data-minmax></span>
+                                          </div>
+                                          <p class="info">Max Repeats X10<br> Cumulative accruals</p>
+                                          <div class="resultSum">
+                                             <div class="resultSumItem">
+                                                <span class="pre">Profit per day:</span>
+                                             <!--   <span class="sum">458</span>
+                                             </div>
+                                             <div class="resultSumItem">
+                                                <span class="pre">Total profit:</span>
+                                                <span class="sum">13750</span>-->
+                                             </div>
+                                          </div>
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="profitInfo">
+                              <div class="left">
+                                 <div class="plan">
+                                    <span class="tit">You have chosen a plan: </span>
+                                    <span class="planPr" id="invest_percent"></span>
+                                    <span class="day" id="invest_name"></span>
+                                 </div>
+                                 <span class="text">We continue to research and improve technologies for the development.</span>
+                              </div>
+                              <div class="right">
+                                 <span class="title">Investments will be directed to:</span>
+                                 <ul class="inf">
+                                    <li>Technical Trading</li>
+                                    <li>development of the staff </li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="profitLine">
+                              <div class="titleBl">
+                                 <span class="iconBl icon-money"></span>
+                                 <h2 class="cap"><span class="smallTxt">Calculate</span> Profit</h2>
+                              </div>
+                              <div class="calcLine">
+                                 <form action="#">
+                                    <div class="calcWrap">
+                                       <div class="inputLine">
+                                          <label for="">Choose a currency:</label>
+                                          <select class="selectricBl" id="calc_curr">
+                                             <option value="usd" data-fixed="2">USD</option>
+                                             <option value="rub" data-fixed="0">RUB</option>
+                                             <option value="btc" data-fixed="6">BTC</option>
+                                             <option value="eth" data-fixed="6">ETH</option>
+                                             <option value="xrp" data-fixed="6">XRP</option>
+                                             <option value="usdt" data-fixed="2">USDT</option>
+                                          </select>
+                                       </div>
+                                       <div class="inputLine">
+                                          <label for="">Enter the amount:</label>
+                                          <input type="text" id="calc_amount">
+                                       </div>
+                                       <a href="sign-in.php" class="btn btnYellow">Invest</a>
+                                    </div>
+                                 </form>
+                                 <div class="profitTxt">
+                                    <ul>
+                                       <li>
+                                          <span class="tit">Profit per day:</span>
+                                          <span class="val" data-profit1></span>
+                                       </li>
+                                       <li>
+                                          <span class="tit">Total profit:</span>
+                                          <span class="val" data-profitall></span>
+                                       </li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <script>
+                              var curr = jQuery('#calc_curr').val();
+                              var fixed = jQuery('#calc_curr option:selected').data('fixed');
+                              
+                              function setInfo() {
+                                  jQuery('.cabPlanItem').each(function(index) {
+                                      min = jQuery(this).find('input').data('min'+curr);
+                                      max = jQuery(this).find('input').data('max'+curr);
+                                      term = jQuery(this).find('input').data('term');
+                                      percent = jQuery(this).find('input').data('percent');
+                                      amount = jQuery('#calc_amount').val();
+                              
+                                      jQuery(this).find('[data-minmax]').html(min + ' ' + curr + ' - ' + max + ' ' + curr);
+                              
+                                      if (term == 1) jQuery(this).find('[data-planprofit1]').html('-');
+                                      else jQuery(this).find('[data-planprofit1]').html((amount * percent / 100).toFixed(fixed) + ' ' + curr);
+                                      jQuery(this).find('[data-planprofitall]').html((term * amount * percent / 100).toFixed(fixed) + ' ' + curr);
+                                  })
+                              }
+                              
+                              function setProfit() {
+                                  term = jQuery('[name=Plan]:checked').data('term');
+                                  percent = jQuery('[name=Plan]:checked').data('percent');
+                                  amount = jQuery('#calc_amount').val();
+                              
+                                  if (term == 1) jQuery('[data-profit1]').html('-');
+                                  else jQuery('[data-profit1]').html((amount * percent / 100).toFixed(fixed) + ' ' + curr);
+                                  jQuery('[data-profitall]').html((term * amount * percent / 100).toFixed(fixed) + ' ' + curr);
+                              }
+                              
+                              jQuery(document).ready(function() {
+                                  jQuery('#calc_curr').on('change', function() {
+                                      curr = jQuery('#calc_curr').val();
+                                      fixed = jQuery('#calc_curr option:selected').data('fixed');
+                              
+                                      jQuery('#calc_amount').val(jQuery('[name=Plan]:checked').data('min'+curr));
+                              
+                                      setInfo();
+                                      setProfit();
+                                  });
+                              
+                                  jQuery('#calc_amount').on('change keyup', function() {
+                                      setInfo();
+                                      setProfit();
+                                  });
+                              
+                                  jQuery('[name=Plan]').on('change', function() {
+                                      setInfo();
+                                      setProfit();
+                                  });
+                              
+                                  jQuery('#calc_amount').val(jQuery('[name=Plan]:checked').data('min'+curr));
+                                  
+                                  setInfo();
+                                  setProfit();
+                              })
+                           </script>
+                           <script>
+                              jQuery(document).ready(function() {
+                                  jQuery('[name=Plan]').on('change', function() {
+                                      jQuery('#invest_percent').html(jQuery('[name=Plan]:checked').data('percent') +'%');
+                                      jQuery('#invest_name').html(jQuery('[name=Plan]:checked').data('name'));
+                                  });
+                              
+                                  jQuery('#invest_percent').html(jQuery('[name=Plan]:checked').data('percent') +'%');
+                                  jQuery('#invest_name').html(jQuery('[name=Plan]:checked').data('name'));
+                              })
+                           </script>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="partnersProgram">
+               <div class="container">
+                  <div class="wrapIn">
+                     <div class="titleBl">
+                        <span class="iconBl icon-employee-2"></span>
+                        <h2 class="cap"><span class="smallTxt">We offer </span> 3 levels of partner program</h2>
+                     </div>
+                     <div class="partnerRepresentative">
+                        <div class="representativeBl">
+                           <ul class="inf">
+                              <li><span class="pr">6%</span><span class="lvl">1 level</span></li>
+                              <li><span class="pr">3%</span><span class="lvl">2 level</span></li>
+                              <li><span class="pr">1%</span><span class="lvl">3 level</span></li>
+                           </ul>
+                        </div>
+                        <div class="representText">
+                           <div class="textBlock">
+                              <b> Finance offers its partners a referral program of 3 levels.</b>
+                              <p>Attract new investors and earn money with them up to 10% of the amount of all deposits.</p>
+                           </div>
+                           <div class="list">
+                              <div class="item">
+                                 <span class="num">01</span>
+                                 <span class="txt">Register in the  finance system</span>
+                                 <a href="sign-up.php" class="btn btnYellow">sign up</a>
+                              </div>
+                              <div class="item">
+                                 <span class="num">02</span>
+                                 <span class="txt">Copy the referral link in your personal account</span>
+                                 <a href="sign-in.php" class="btn btnYellow">get link</a>
+                              </div>
+                              <div class="item">
+                                 <span class="num">03</span>
+                                 <span class="txt">Choose a partner<br/> program</span>
+                                 <a href="#" class="btn btnYellow">choose marketing</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="refProgram">
+                        <div class="wrapIn">
+                           <div class="right">
+                              <div class="titleBl">
+                                 <span class="iconBl icon-wallet--"></span>
+                                 <h2 class="cap"><span class="smallTxt">Bonus </span> program</h2>
+                              </div>
+                              <div class="list">
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">10000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">100$</span>
+                                 </div>
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">15000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">200$</span>
+                                 </div>
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">20000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">300$</span>
+                                 </div>
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">30000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">400$</span>
+                                 </div>
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">40000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">500$</span>
+                                 </div>
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">50000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">1000$</span>
+                                 </div>
+                                 <div class="item">
+                                    <span class="txt">Make a turn of line <b>1</b></span>
+                                    <span class="val colorYellow">100000$</span>
+                                    <span class="txt">bonus</span>
+                                    <span class="val colorGreen">5000$</span>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="specialOffer">
+                              <div class="titleBl">
+                                 <span class="iconBl icon-employee-1"></span>
+                                 <h2 class="cap"><span class="smallTxt">Representative</span> program
+                                 </h2>
+                              </div>
+                              <div class="text">
+                                 <p>A unique offer for those who want to turn  finance  advertising into a full-fledged business. Access is given if the required amount is available on the balance in the personal account.</p>
+                                 <span class="txt">If you have a special offer for us, please <a href="mailto:support@.com">contact us.</a></span>
+                              </div>
+                              <div class="blockSpecial">
+                                 <span class="text">Investing with  Finance, you earn from 2.1% daily and up to 10% from the referral program.</span>
+                                 <span class="pr">10%</span>
+                                 <a href="sign-up.php" class="btn btnYellow">Join</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--</div>-->
+            <div class="actionBlock version2">
+               <div class="container">
+                  <div class="actionWrap">
+                     <div class="actionTxt">
+                        <div class="titleBl">
+                           <div class="pictureLogo"></div>
+                           <h2 class="cap"><span class="smallTxt">start investing </span> right now!</h2>
+                        </div>
+                        <span class="text">Take advantage of our cutting edge technology, create an account and start earning a premium investment now!</span>
+                                                  <span class="text">Our Investors Funds are protected by our Anti-loss system, Funds locked for release only in a case of failed trades!</span>
+                        <a href="sign-up.php" class="btn btnYellow">INVEST NOW</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <footer>
+            <div class="footerTop">
+               <div class="container">
+                  <div class="wrapIn">
+                     <div class="plSystem">
+                        <div class="titleBl">
+                           <span class="iconBl icon-credit-card"></span>
+                           <h2 class="cap"><span class="smallTxt">payment</span> systems</h2>
+                        </div>
+                        <div class="list">
+                           <div class="item" style="background-image: url(img/pl1.png);"></div>
+                           <div class="item" style="background-image: url(img/pl2.png);"></div>
+                           <div class="item" style="background-image: url(img/pl3.png);"></div>
+                           <div class="item" style="background-image: url(img/pl4.png);"></div>
+                           <div class="item" style="background-image: url(img/pl5.png);"></div>
+                           <div class="item" style="background-image: url(img/pl6.png);"></div>
+                           <div class="item" style="background-image: url(img/pl7.png);"></div>
+                           <div class="item" style="background-image: url(img/pl8.png);"></div>
+                        </div>
+                     </div>
+                     <ul class="menuFooter">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="invest.html"  class="active">Investments</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="mailto:support@.com">Contacts</a></li>
+                        <li><a href="tel:+">+</a></li>
+                     </ul>
+                     <div class="lineInfSocial">
+                        <div class="logo invisLink">
+                           <a href="index.html"></a>
+                           <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="adressBl">
+                           <span class="iconBl icon-pin"></span>
+                           <span class="txt">26 Scrutton Street, London, <br /> England, EC2A 4RJ
+                           <br>
+                           The Covert, PettsWood, Orpington, BR6 OBU</span>
+                        </div>
+                        <div class="supportBl">
+                           <span class="iconBl icon-time-management"></span>
+                           <span class="tit">Support 24/7</span>
+                           <a href="#" class="link">support@.com</a>
+                           <a href="tel:+" class="link">+</a>
+                        </div>
+                        <div class="socialList">
+                           <ul>
+                              <li><a href="#"  title = "Support" target="_blank"><span class="iconBl icon-telegram"></span></a></li>
+                              <li><a href="#" title = "News" target="_blank"><span class="iconBl icon-telegram"></span></a></li>
+                              <li><a href="#" title = "Youtube" target="_blank"><span class="iconBl icon-youtube"></span></a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="lineFotText">
+                        <div class="item">
+                           <span class="iconBl" style="background-image: url(img/iconfile.svg);"></span>
+                           <span class="name">We use Cookies</span>
+                           <p>We use various cookies on our website to provide you with our services and improve the quality of interaction with our service.</p>
+                           <a href="rules.html" class="link">Read more</a>
+                        </div>
+                        <div class="item">
+                           <span class="iconBl" style="background-image: url(img/security.svg);"></span>
+                           <span class="name">DDoS Protection</span>
+                           <p>All data is encrypted and stored on separate servers. This prevents external DDoS attacks and leaks of information about users and partners.</p>
+                           <a href="rules.html" class="link">Read more</a>
+                        </div>
+                        <div class="item">
+                           <span class="iconBl" style="background-image: url(img/lock.svg);"></span>
+                           <span class="name">SSL Security</span>
+                           <p>We have an SSL certificate and all data is securely protected by double encryption.</p>
+                           <a href="rules.html" class="link">Read more</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footerBot">
+               <div class="container">
+                  <div class="wrapIn">
+                     <div class="left">
+                        <div class="list">
+                           <div class="item">
+                              <span class="tit">Non-disclosure agreement</span>
+                              <span class="txt">We conclude a non-disclosure agreement. This is an effective way to protect valuable information, used to prevent the leakage of any secret (confidential) information: from trade secrets to personal data.</span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="right">
+                        <div class="list">
+                           <div class="item">
+                              <span class="tit">Confidential data</span>
+                              <span class="txt">All user information is confidential and cannot be distributed to third parties.</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyTxt"><span class="txt">&copy; Copyright 2022  Finance. All Rights Reserved.</span></div>
+         </footer>
+      </section>
+      <script>
+         if ($(".triangle-wrapper ").length > 0) {
+             (() => {
+                 const $triangles = document.querySelectorAll('.triangle');
+                 const template = `
+                     <svg class="triangle-svg " viewBox="0 0 140 141 ">
+                         <g stroke="none " stroke-width="1 " fill="none " fill-rule="evenodd ">
+                         <polygon class="triangle-polygon "  points="70 6 136 138 4 138 "></polygon>
+                         </g>
+                     </svg>
+                 `;
+         
+                 Array.prototype.forEach.call($triangles, ($triangle, index) => {
+                     $triangle.innerHTML = template;
+                 });
+             })();
+         }
+      </script>
+      <script type='text/javascript' src='js/jquery.tabslet.min.js'></script>
+      <script type='text/javascript' src='js/clipboard.min.js'></script>
+      <script type='text/javascript' src='js/jquery.knob.min.js'></script>
+      <script type="text/javascript" src="js/clock_en.js"></script>
+      <script type='text/javascript' src='js/jquery.parallax.js'></script>
+      <script type='text/javascript' src='js/script.js'></script>
+      <script src="//code.tidio.co/50gwdhfdnpxbylzcixlnlnvxisbnyxia.js"async></script>
+   </body>
+</html>
